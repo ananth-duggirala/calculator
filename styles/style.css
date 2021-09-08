@@ -1,0 +1,40 @@
+html {
+    font-size: 10px;
+}
+
+body,html {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+button {
+    border-radius: 16px;
+    border-color: rgb(34, 214, 238);
+}
+
+.long-button {
+    width: 212.5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(38, 70, 175);
+    padding: 5%;
+    margin: 35%;
+    gap: 3%;
+    border-radius: 16 px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 10% solid #444;
+    padding: 25%;
+    font-size: 32;
+    text-align: center;
+}
+
+#display{
+    grid-column: 1/ span 4;
+    line-height: 200%;
+}
