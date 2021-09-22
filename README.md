@@ -1,2 +1,2 @@
 # calculator
-PS. This project is incomplete as of today.
+This project is incomplete as of today.
